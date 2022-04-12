@@ -1,0 +1,24 @@
+; Script05.txt
+; Test of hash table building and feature name searches.
+
+; Index a DB file:
+index	VA_Bath.txt
+
+; Check the name index:
+show	hash
+
+; Try a few feature name searches:
+what_is	Mitchelltown
+what_is	Slaty Lick Draft
+what_is	Laurel Run
+what_is	Vance Lick Hollow
+what_is	Winding Trail
+what_is	Little Mountain
+what_is	Blue Suck Trail
+what_is	Yost
+what_is	Barnetts Run
+what_is	Ryder Run
+what_is	xxxRyder Runzzz
+
+; Exit
+quit	

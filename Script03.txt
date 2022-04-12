@@ -1,0 +1,25 @@
+; Script03.txt
+; Test of hash table building and feature name searches.
+
+; Index a DB file:
+index	VA_Monterey.txt
+
+; Check the name index:
+show	hash
+
+; Try a few feature name searches:
+what_is	Forks of Waters
+what_is	New Salem Church
+what_is	Hightown Church
+what_is	Doe Hill
+what_is	Meadow Draft
+what_is	Strait Creek
+what_is	Seybert Hills
+what_is	Monterey Mountain
+what_is	Simmons Run
+what_is	Gulf Mountain
+what_is	Miracle Ridge
+what_is	xxxMiracle Ridgezzz
+
+; Exit
+quit	

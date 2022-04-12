@@ -1,0 +1,25 @@
+; Script01.txt
+; Test of hash table building and feature name searches.
+
+; Index a DB file:
+index	VA_Highland.txt
+
+; Check the name index:
+show	hash
+
+; Try a few feature name searches:
+what_is	Seybert Chapel
+what_is	Strait Creek
+what_is	Ruckman Draft
+what_is	Bear Hollow
+what_is	Hiner Hollow
+what_is	Cold Spring Run
+what_is	Smith Field
+what_is	Ginseng Mountain
+what_is	Simmons Run
+what_is	Claylick Hollow
+what_is	Crab Run
+what_is	xxxCrab Runzzz
+
+; Exit
+quit	

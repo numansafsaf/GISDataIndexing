@@ -1,0 +1,24 @@
+; Script04.txt
+; Test of hash table building and feature name searches.
+
+; Index a DB file:
+index	VA_Bath.txt
+
+; Check the name index:
+show	hash
+
+; Try a few feature name searches:
+what_is	Chesnut Ridge
+what_is	Back Creek
+what_is	Big Spring
+what_is	John Wesley United Methodist Church
+what_is	Bonner Mountain
+what_is	Buck Hollow
+what_is	Hidden Valley
+what_is	Springhouse Run
+what_is	Schoolhouse Hollow
+what_is	Yost
+what_is	xxxYostzzz
+
+; Exit
+quit	

@@ -1,0 +1,24 @@
+; Script02.txt
+; Test of hash table building and feature name searches.
+
+; Index a DB file:
+index	VA_Highland.txt
+
+; Check the name index:
+show	hash
+
+; Try a few feature name searches:
+what_is	Bolar Run
+what_is	Mill Run
+what_is	Newman Run
+what_is	Asbury Church
+what_is	Little Mountain
+what_is	Monterey Mountain
+what_is	Peck Run
+what_is	Laurel Gap Church
+what_is	Barren Rock
+what_is	Frank Run
+what_is	xxxFrank Runzzz
+
+; Exit
+quit	
